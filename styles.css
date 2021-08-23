@@ -1,0 +1,11 @@
+body {
+    background-color: pink;
+    border-width: 20px;
+    border-style: dashed;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
