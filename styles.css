@@ -22,6 +22,9 @@ body {
   width: 100%;
   display: flex;
 }
+.home__title{
+  font-size: 110px;
+}
 
 .header__navigation a {
   float: left;
@@ -68,7 +71,7 @@ section{
   padding-top: 300px;
 }
 #work{
-  list-style-type: circle;
+  list-style-type: circle; /* bullets for the list on page*/
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -91,20 +94,20 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+/* Hover over all h2 headlines makes the background green*/
+h2:hover {
+  background-color: #04AA6D;
+}
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.contact__container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-}
-h2:hover {
-  background-color: #04AA6D;
 }
 #about{
   display: flex;
